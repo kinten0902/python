@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 from numpy import random
-from chainer import cuda, Chain, Function, FunctionSet, gradient_check, Variable, optimizers
+# from chainer import cuda, Chain, Function, FunctionSet, gradient_check, Variable, optimizers
+from chainer import cuda, Chain, Function, gradient_check, Variable, optimizers
 import chainer.functions as F
 import chainer.links as L
 import numpy as np
